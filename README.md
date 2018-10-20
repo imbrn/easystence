@@ -6,9 +6,7 @@
   to work.
 </p>
 
-<p align="center">
-  <b>It sound pretty cool, right? Let's check it out!</b>
-</p>
+**It sounds pretty cool, right? Let's check it out!**
 
 _It provides you useful persistence units ready to use:_
 
