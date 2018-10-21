@@ -16,7 +16,7 @@ import { localStorageUnit } from "easystence";
 
 > You can also implement your own persistence unit as a breeze.
 
-_Easy to create models:_
+_Create models:_
 
 ```javascript
 import { createPersistence, localStorageUnit } from "easystence";
@@ -30,7 +30,7 @@ const Product = persistence("Product", {
 });
 ```
 
-_Easy to create instances:_
+_Create model instances:_
 
 ```javascript
 const apple = Product({
@@ -40,13 +40,13 @@ const apple = Product({
 });
 ```
 
-_Easy to persist data:_
+_Persist model instances:_
 
 ```javascript
 await apple.save();
 ```
 
-_Easy to get data back:_
+_Search for data:_
 
 ```javascript
 // Getting one value
@@ -56,7 +56,7 @@ const oneApple = await Product.findOne({ id: 1 });
 const allApples = await Product.find();
 ```
 
-_Easy to delete data:_
+_Delete data:_
 
 ```javascript
 await oneApple.delete();
