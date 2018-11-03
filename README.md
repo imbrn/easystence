@@ -8,7 +8,7 @@
 
 **It sounds pretty cool, right? Let's check it out!**
 
-> This project is under design/development. It has a lot of features that is not implemented yet. Do not use it in production code for now.
+> ⚠️ This project is under design/development. It has a lot of features that is not implemented yet. Do not use it in production code for now.
 
 _It provides you useful persistence units ready to use:_
 
